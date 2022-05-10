@@ -18,12 +18,12 @@ const Cart: NextPage = () => {
 
             <main>
                 <Container className="mb-5">
-                <h1 className="my-5">
-                    Carrinho
-                </h1>
+                    <h1 className="my-5">
+                        Carrinho
+                    </h1>
 
-                <CartTable />
-                <CartTotal />
+                    <CartTable />
+                    <CartTotal />
                 </Container>
             </main>
         </>
